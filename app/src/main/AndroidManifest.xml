@@ -3,6 +3,7 @@
     package="eu.example.ipslogin">
 
     <uses-permission android:name="android.permission.VIBRATE" />
+
     <application
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher"
@@ -11,8 +12,9 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.IpsLogin">
         <activity
-            android:name=".welcome"
+            android:name=".Student"
             android:exported="false" />
+
         <activity
             android:name=".MainActivity"
             android:exported="true">
